@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="BootstrapPort_" value="6789"/>
+  <parameter name="Port_" value="5678"/>
+  <parameter name="platformVersion_" value="android"/>
+  <parameter name="URL_" value="127.0.0.3:5678/wd/hub"/>
+  <parameter name="UDID_" value="85cfa63b"/>
+  <parameter name="callbackPort_" value="5678"/>
+  <parameter name="deviceName_" value="Galaxy A5"/>
+  <parameter name="Ipaddress_" value="127.0.0.3"/>
+  <parameter name="Logfilepath_" value="C:\\Trimble_aman\\qa-automation-MobileReview\\   SpendingTracker2\\Log\\SamsungGalaxyA5.log"/>
+  <test name="Motorola">
+    <parameter name="BootstrapPort_" value="2345"/>
+    <parameter name="Port_" value="1234"/>
+    <parameter name="platformVersion_" value="android"/>
+    <parameter name="URL_" value="127.0.0.1:1234/wd/hub"/>
+    <parameter name="UDID_" value="ZY2222RXSV"/>
+    <parameter name="callbackPort_" value="1234"/>
+    <parameter name="deviceName_" value="Moto G (3rd Generation)"/>
+    <parameter name="Ipaddress_" value="127.0.0.1"/>
+    <parameter name="Logfilepath_" value="Motog.log"/>
+    <classes>
+      <class name="com.Spending.Sanity.SanityTestcaseRun"/>
+    </classes>
+  </test> <!-- Motorola -->
+  <test name="Samsung Galaxy A5">
+    <parameter name="BootstrapPort_" value="6789"/>
+    <parameter name="Port_" value="5678"/>
+    <parameter name="platformVersion_" value="android"/>
+    <parameter name="URL_" value="127.0.0.3:5678/wd/hub"/>
+    <parameter name="UDID_" value="85cfa63b"/>
+    <parameter name="callbackPort_" value="5678"/>
+    <parameter name="deviceName_" value="Galaxy A5"/>
+    <parameter name="Ipaddress_" value="127.0.0.3"/>
+    <parameter name="Logfilepath_" value="C:\\Trimble_aman\\qa-automation-MobileReview\\   SpendingTracker2\\Log\\SamsungGalaxyA5.log"/>
+    <classes>
+      <class name="com.Spending.Sanity.SanityTestcaseRun"/>
+    </classes>
+  </test> <!-- Samsung Galaxy A5 -->
+  <test name="Motorola(failed)" parallel="tests">
+    <parameter name="BootstrapPort_" value="2345"/>
+    <parameter name="Port_" value="1234"/>
+    <parameter name="platformVersion_" value="android"/>
+    <parameter name="URL_" value="127.0.0.1:1234/wd/hub"/>
+    <parameter name="UDID_" value="ZY2222RXSV"/>
+    <parameter name="callbackPort_" value="1234"/>
+    <parameter name="deviceName_" value="Moto G (3rd Generation)"/>
+    <parameter name="Ipaddress_" value="127.0.0.1"/>
+    <parameter name="Logfilepath_" value="Motog.log"/>
+    <classes>
+      <class name="com.Spending.Sanity.SanityTestcaseRun">
+        <methods>
+          <include name="PageObjectCreation"/>
+          <include name="AppiumStarting"/>
+          <include name="AppiumStarting"/>
+          <include name="TestCase001"/>
+          <include name="testCase004"/>
+          <include name="testCase003"/>
+          <include name="testCase002"/>
+          <include name="testCase008"/>
+          <include name="testCase007"/>
+          <include name="testCase006"/>
+          <include name="testCase005"/>
+          <include name="testCase009"/>
+          <include name="testCase011"/>
+          <include name="testCase010"/>
+          <include name="testCase012"/>
+        </methods>
+      </class> <!-- com.Spending.Sanity.SanityTestcaseRun -->
+    </classes>
+  </test> <!-- Motorola(failed) -->
+  <test name="Samsung Galaxy A5(failed)" parallel="tests">
+    <parameter name="BootstrapPort_" value="6789"/>
+    <parameter name="Port_" value="5678"/>
+    <parameter name="platformVersion_" value="android"/>
+    <parameter name="URL_" value="127.0.0.3:5678/wd/hub"/>
+    <parameter name="UDID_" value="85cfa63b"/>
+    <parameter name="callbackPort_" value="5678"/>
+    <parameter name="deviceName_" value="Galaxy A5"/>
+    <parameter name="Ipaddress_" value="127.0.0.3"/>
+    <parameter name="Logfilepath_" value="C:\\Trimble_aman\\qa-automation-MobileReview\\   SpendingTracker2\\Log\\SamsungGalaxyA5.log"/>
+    <classes>
+      <class name="com.Spending.Sanity.SanityTestcaseRun">
+        <methods>
+          <include name="PageObjectCreation"/>
+          <include name="AppiumStarting"/>
+          <include name="AppiumStarting"/>
+          <include name="TestCase001"/>
+          <include name="testCase004"/>
+          <include name="testCase003"/>
+          <include name="testCase002"/>
+          <include name="testCase008"/>
+          <include name="testCase007"/>
+          <include name="testCase006"/>
+          <include name="testCase005"/>
+          <include name="testCase009"/>
+          <include name="testCase011"/>
+          <include name="testCase010"/>
+          <include name="testCase012"/>
+        </methods>
+      </class> <!-- com.Spending.Sanity.SanityTestcaseRun -->
+    </classes>
+  </test> <!-- Samsung Galaxy A5(failed) -->
+</suite> <!-- Failed suite [Suite] -->

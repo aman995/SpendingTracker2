@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+ 
+<suite name="Suite" parallel="tests" thread-count="4">
+ 
+ <test name="Motorola"  >
+ 
+<parameter name="deviceName_" value="Moto G (3rd Generation)"/>
+		<parameter name="UDID_" value="ZY2222RXSV"/>
+		<parameter name="platformVersion_" value="android"/>
+		<parameter name="URL_" value="127.0.0.1:1234/wd/hub"/>
+		<parameter name="callbackPort_" value="1234"/>
+		<parameter name="BootstrapPort_" value="2345"/>
+		<parameter name="Port_" value="1234"/>
+		<parameter name="Ipaddress_" value="127.0.0.1"/>
+		<parameter name="Logfilepath_" value="Motog.log"/>
+		
+		
+ <classes>
+ 
+ <class name="com.Spending.Sanity.SanityTestcaseRun" />
+ 
+ </classes>
+ 
+ </test>
+ 
+ <test name="Samsung S6 EDGE"  enabled="false">
+ 
+<parameter name="deviceName_" value="GalaxyS6Edge"/>
+		<parameter name="UDID_" value="041604aa0c1c2f02"/>
+		<parameter name="platformVersion_" value="android"/>
+		<parameter name="URL_" value="127.0.0.3:5678/wd/hub"/>
+		<parameter name="callbackPort_" value="5678"/>
+		<parameter name="BootstrapPort_" value="6789"/>
+		<parameter name="Port_" value="5678"/>
+		<parameter name="Ipaddress_" value="127.0.0.3"/>
+		<parameter name="Logfilepath_" value="C:\\Trimble_aman\\qa-automation-MobileReview\\SpendingTracker2
+		\\Log\\Motog.log"/>
+		
+ <classes>
+ 
+ <class name="com.Spending.Sanity.SanityTestcaseRun" />
+ 
+ </classes>
+ 
+ </test>
+ 
+ <test name="Samsung Galaxy A5">
+ 
+<parameter name="deviceName_" value="Galaxy A5"/>
+		<parameter name="UDID_" value="85cfa63b"/>
+		<parameter name="platformVersion_" value="android"/>
+		<parameter name="URL_" value="127.0.0.3:5678/wd/hub"/>
+		<parameter name="callbackPort_" value="5678"/>
+		<parameter name="BootstrapPort_" value="6789"/>
+		<parameter name="Port_" value="5678"/>
+		<parameter name="Ipaddress_" value="127.0.0.3"/>
+		<parameter name="Logfilepath_" value="C:\\Trimble_aman\\qa-automation-MobileReview\\
+		SpendingTracker2\\Log\\SamsungGalaxyA5.log"/>
+		
+ <classes>
+ 
+ <class name="com.Spending.Sanity.SanityTestcaseRun" />
+ 
+ </classes>
+ 
+ </test>
+ 
+ <test name="Samsung Grand" enabled="false">
+ 
+<parameter name="deviceName_" value="ict1"/>
+		<parameter name="UDID_" value="4df70f7f639d5085"/>
+		<parameter name="platformVersion_" value="android"/>
+		<parameter name="URL_" value="127.0.0.4:9876/wd/hub"/>
+		<parameter name="callbackPort_" value="9876"/>
+		<parameter name="BootstrapPort_" value="7891"/>
+		<parameter name="Port_" value="9876"/>
+		<parameter name="Ipaddress_" value="127.0.0.4"/>
+		<parameter name="Logfilepath_" value="C:\\Trimble_aman\\qa-automation-MobileReview\\
+		SpendingTracker2\\Log\\Motog.log"/>
+		
+ <classes>
+ 
+ <class name="com.Spending.Sanity.SanityTestcaseRun" />
+ 
+ </classes>
+ 
+ </test>
+ 
+ 
+ <test name="sony Xperia"  enabled="false">
+ 
+ 	<parameter name="deviceName_" value="G8232"/>
+		<parameter name="UDID_" value="BH902YXT72"/>
+		<parameter name="platformVersion_" value="android"/>
+		<parameter name="URL_" value="127.0.0.2:3456/wd/hub"/>
+		<parameter name="callbackPort_" value="3456"/>
+		<parameter name="BootstrapPort_" value="4567"/>
+		<parameter name="Port_" value="3456"/>
+		<parameter name="Ipaddress_" value="127.0.0.2"/>
+		<parameter name="Logfilepath_" value="C:\\Trimble_aman\\qa-automation-MobileReview\\SpendingTracker2
+		\\Log\\Motog.log"/>
+ <classes>
+ 
+ <class name="com.Spending.Sanity.SanityTestcaseRun" />
+ 
+ </classes>
+ 
+ </test>
+ 
+</suite>
